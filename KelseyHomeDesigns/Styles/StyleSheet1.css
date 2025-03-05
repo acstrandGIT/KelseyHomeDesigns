@@ -1,0 +1,26 @@
+﻿body {
+    
+}
+
+
+.gallery{
+    display: inline-block;
+    border: 2px solid hsl(0, 0%, 50%);
+    margin: 5px;
+    width: 300px;
+}
+
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+
+    .gallery:hover {
+        border: 2px solid hsl(0, 0%, 20%);
+    }
+
+.gallery img{
+    width: 100%;
+    hieght: auto;
+
+}
