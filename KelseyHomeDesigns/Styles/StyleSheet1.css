@@ -1,9 +1,53 @@
-﻿body {
-    
+﻿.root {
+    --bs-body-font-family: 'Cormorant Garamond', sans-serif;
+}
+
+.cormorant-garamond-mainfont {
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*Header/NavBar*/
+
+.navigationBar {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float:left
+}
+
+/*Header/NavBar*/
+
+
+.one {
+    background-image: url("C:\Users\astrand\source\PersonalProjects\KelseyHomeDesigns\KelseyHomeDesigns\Images\LivingRoom1.jpg");
 }
 
 
-.gallery{
+
+body {
+    background: #fff0db;
+}
+
+/*LOGO*/
+.row img{
+    display: inline-block;
+    margin: 5px;
+    width: 300px;
+}
+
+
+/*LOGO*/
+
+
+
+/*PHOTO_Gallery*/
+.gallery {
     display: inline-block;
     border: 2px solid hsl(0, 0%, 50%);
     margin: 5px;
@@ -24,3 +68,5 @@
     hieght: auto;
 
 }
+
+/*PHOTO_Gallery*/
